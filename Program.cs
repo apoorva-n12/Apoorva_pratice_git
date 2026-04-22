@@ -7,13 +7,13 @@ namespace MyPracticePrograms
         static void Main()
         {
             Console.Write("Enter a number: ");
-            int num = int.Parse(Console.ReadLine() ?? "");
+            int num = int.Parse(Console.ReadLine() ?? "0");
 
-            int fact = 3;
+            int fact = 1;
 
-            for (int f = 1; f <= num; f++)
+            for (int i = 1; i <= num; i++)
             {
-                fact = fact * f;
+                fact = fact * i;
             }
 
             Console.WriteLine("Factorial is: " + fact);
