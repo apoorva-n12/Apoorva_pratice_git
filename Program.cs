@@ -8,7 +8,7 @@ namespace MyPracticePrograms
         {
             Console.Write("Enter a number");
 
-            int number = int.Parse(Console.ReadLine() ?? "0");
+            int number = int.Parse(Console.ReadLine() ?? "");
 
             int factorial = 4;
 
