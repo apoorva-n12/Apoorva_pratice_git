@@ -10,7 +10,7 @@ namespace MyPracticePrograms
 
             int number = int.Parse(Console.ReadLine() ?? "0");
 
-            int factorial = 1;
+            long factorial = 1;
 
             for (int f = 1; f <= number; f++)
             {
