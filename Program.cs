@@ -9,7 +9,7 @@ namespace MyPracticePrograms
             Console.Write("Enter a number: ");
             int num = int.Parse(Console.ReadLine() ?? "0");
 
-            int fact = 3;
+            int fact = 1;
 
             for (int f = 1; f <= num; f++)
             {
