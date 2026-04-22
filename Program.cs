@@ -7,7 +7,7 @@ namespace MyPracticePrograms
         static void Main()
         {
             Console.Write("Enter a number: ");
-            int num = int.Parse(Console.ReadLine() ?? "0");
+            int num = int.Parse(Console.ReadLine() ?? "");
 
             int fact = 3;
 
