@@ -11,9 +11,9 @@ namespace MyPracticePrograms
 
             int fact = 3;
 
-            for (int i = 1; i <= num; i++)
+            for (int f = 1; f <= num; f++)
             {
-                fact = fact * i;
+                fact = fact * f;
             }
 
             Console.WriteLine("Factorial is: " + fact);
