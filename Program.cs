@@ -4,7 +4,7 @@ namespace MyPracticePrograms
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Console.Write("Enter a number");
 
