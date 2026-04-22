@@ -9,11 +9,11 @@ namespace MyPracticePrograms
             Console.Write("Enter a number: ");
             int num = int.Parse(Console.ReadLine() ?? "0");
 
-            int fact = 2;
+            int fact = 1;
 
-            for (int i = 1; i <= num; i++)
+            for (int f = 1; f <= num; f++)
             {
-                fact = fact * i;
+                fact = fact * f;
             }
 
             Console.WriteLine("Factorial is: " + fact);
