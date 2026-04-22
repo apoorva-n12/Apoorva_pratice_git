@@ -6,17 +6,17 @@ namespace MyPracticePrograms
     {
         static void Main()
         {
-            Console.Write("Enter a number: ");
-            int num = int.Parse(Console.ReadLine() ?? "0");
+            Console.Write("Enter a number");
+            int number = int.Parse(Console.ReadLine() ?? "0");
 
-            int fact = 3;
+            int factorial = 1;
 
-            for (int i = 1; i <= num; i++)
+            for (int f = 1; f <= number; f++)
             {
-                fact = fact * i;
+                factorial = factorial * f;
             }
 
-            Console.WriteLine("Factorial is: " + fact);
+            Console.WriteLine("Factorial is: " + factorial);
         }
     }
 }
